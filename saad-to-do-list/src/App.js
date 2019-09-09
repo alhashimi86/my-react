@@ -9,9 +9,10 @@ function App() {
   return (
     <div className="App">
  <Header tagline='this could be your bucket'/>
- <Header tagline='this could be your bucket list'/>
- <ToDoList/>
+ {/* <Header tagline='this could be your bucket list'/> */}
  <ToDoForm/>
+ <ToDoList/>
+ 
     </div>
   );
 }
